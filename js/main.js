@@ -1,3 +1,9 @@
+const menuBtn = document.querySelector('.burger__btn');
+
+
+
+
+
 const insight_slider = new Swiper('.insight__slider', {
   // Optional parameters
   loop: false,
@@ -40,3 +46,8 @@ const testimonials_slider = new Swiper('.testimonials__main', {
   },
 
 });
+
+menuBtn.addEventListener('click', () => {
+  const menuNav = document.querySelector('.mobile__menu');
+  menuNav.classList.toggle('active');
+})
