@@ -1015,7 +1015,7 @@ body {
   }
   .features__main-img::after {
     position: absolute;
-    content: url(/images/main/features/img2.svg);
+    content: url(../images/main/features/img2.svg);
     display: block;
     width: 177px;
     height: 181px;

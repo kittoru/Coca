@@ -18,14 +18,6 @@ const insight_slider = new Swiper('.insight__slider', {
   },
 
   breakpoints: {
-    837: {
-      slidesPerView: 2,  
-      spaceBetween: 32,
-    },
-    568: {
-      slidesPerView: 1.35,  
-      spaceBetween:16,
-    },
     375: { 
       slidesPerView: 1.13,
       spaceBetween:16,
