@@ -37,6 +37,10 @@ const insight_slider = new Swiper('.insight__slider', {
     480: { 
       slidesPerView: 1.13,
       spaceBetween:16,
+    },
+    375: {
+      slidesPerView: 1.13,
+      spaceBetween:16,
     }
   }
 });

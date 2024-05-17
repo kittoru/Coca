@@ -1051,7 +1051,7 @@ body {
     max-width: 380px;
   }
   .features__title {
-    max-width: 395px;
+    max-width: 335px;
     margin-bottom: 20px;
   }
   .features__list {
@@ -1181,12 +1181,21 @@ body {
     width: 335px;
     margin-bottom: 48px;
   }
+  .intro__subtitle-text {
+    max-width: 300px;
+  }
+  .intro__input {
+    max-width: 240px;
+  }
+  .intro__text {
+    max-width: 355px;
+  }
   .overview__title {
-    max-width: 440px;
+    max-width: 335px;
   }
   .strength__list {
     flex-wrap: wrap;
-    gap: 60px;
+    gap: 16px;
   }
   .strength__item-title {
     font-size: 32px;
