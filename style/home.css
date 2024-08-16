@@ -1333,6 +1333,7 @@ body {
     gap: 20px;
   }
   .strength__item-title {
+    max-width: 120px;
     font-size: 32px;
     line-height: 1.31;
   }
@@ -1632,7 +1633,7 @@ body {
     height: 228px;
     filter: blur(40px);
     top: 64px;
-    right: -104px;
+    right: 8px;
   }
   .overview__inner {
     padding: 20px 0;
