@@ -23,20 +23,24 @@ const insight_slider = new Swiper('.insight__slider', {
       spaceBetween: 32,
     },
     1200: {
-      slidesPerView: 2,
+      slidesPerView: 1.55,
       spaceBetween: 10,
     },
     1000: {
-      slidesPerView: 2,
-      spaceBetween: 20,
+      slidesPerView: 1.68,
+      spaceBetween: 10,
     },
     860: {
-      slidesPerView: 1.7,
-      spaceBetween: 20,
+      slidesPerView: 1.5,
+      spaceBetween: 10, 
     },
-    480: { 
-      slidesPerView: 1.13,
-      spaceBetween:16,
+    700: { 
+      slidesPerView: 1,
+      spaceBetween:0,
+    },
+    480: {
+      slidesPerView: 1.1,
+      spaceBetween: 5,
     },
     375: {
       slidesPerView: 1.13,
